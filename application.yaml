@@ -1,12 +1,12 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: lmw-apps
+  name: lmw-fitness-apps
   namespace: argocd
 spec: 
   project: default
   source:
-    repoURL: https://github.com/laurawarren88/argoCD.git
+    repoURL: https://github.com/88Warren/lmw-fitness-argocd.git
     targetRevision: HEAD
     path: apps
   destination:

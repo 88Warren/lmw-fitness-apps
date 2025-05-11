@@ -1,14 +1,14 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: lmw-tekton-pipeline
+  name: lmw-fitness-pipeline
   namespace: argocd
 annotations:
   argocd.argoproj.io/sync-options: Prune=false
 spec:
   project: default
   source:
-    repoURL: https://github.com/laurawarren88/tekton_chart.git
+    repoURL: https://github.com/88Warren/lmw-fitness-pipeline.git
     targetRevision: HEAD
     path: .
   destination:
