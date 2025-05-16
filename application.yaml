@@ -6,7 +6,7 @@ metadata:
 spec: 
   project: default
   source:
-    repoURL: https://github.com/88Warren/lmw-fitness-argocd.git
+    repoURL: git@github.com:88Warren/lmw-fitness-apps.git
     targetRevision: HEAD
     path: apps
   destination:
