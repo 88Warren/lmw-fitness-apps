@@ -6,7 +6,7 @@ metadata:
 spec:
   project: default
   source:
-    repoURL: git@github.com:88Warren/lmw-fitness-helmchart.git
+    repoURL: https://github.com/88Warren/lmw-fitness-helmchart.git
     targetRevision: HEAD
     path: .
   destination:

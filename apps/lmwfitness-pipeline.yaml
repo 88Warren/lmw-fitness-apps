@@ -3,12 +3,12 @@ kind: Application
 metadata:
   name: lmw-fitness-pipeline
   namespace: argocd
-annotations:
-  argocd.argoproj.io/sync-options: Prune=false
+  annotations:
+    argocd.argoproj.io/sync-options: Prune=false
 spec:
   project: default
   source:
-    repoURL: git@github.com:88Warren/lmw-fitness-pipeline.git
+    repoURL: https://github.com/88Warren/lmw-fitness-pipeline.git
     targetRevision: HEAD
     path: .
   destination:
