@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: lmw-fitness-helmchart-frontend
+  name: lmw-fitness-webserver
   namespace: argocd
 spec:
   project: default
