@@ -7,7 +7,7 @@ spec:
   project: default
   source:
     repoURL: https://github.com/88Warren/lmw-fitness-helmchart.git
-    targetRevision: prod-blue
+    targetRevision: HEAD
     path: frontend
   destination:
     server: https://kubernetes.default.svc
